@@ -8,7 +8,7 @@ from matplotlib.figure import Figure
 
 class App:
     def __init__(self, root):
-        root.title("S2P Viewer - EnzoRg")
+        root.title('S2P Viewer - EnzoRg')
         width = 770
         height = 500
         screenwidth = root.winfo_screenwidth()
@@ -63,7 +63,6 @@ class App:
 
         file_name = os.path.basename(file_path)
 
-        # Actualizar el Label con el nuevo file_path
         self.file_path_label.config(text=f"File: {file_name}")
 
     def plot_s_db(self, m, n, label):
