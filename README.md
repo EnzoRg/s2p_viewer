@@ -24,12 +24,6 @@ S2P Viewer is a graphical application developed in Python for visualizing and an
 - Python 3.x
 - Libraries: Tkinter, Matplotlib, scikit-rf (skrf)
 
-## Getting Started
-
-1. Clone the repository.
-2. Install the required libraries: `pip install -r requirements.txt`
-3. Run the program: `python s2p_viewer.py`
-
 ## Preview
 
 ![S2P Viewer Preview](image.png)
