@@ -26,7 +26,7 @@ S2P Viewer is a graphical application developed in Python for visualizing and an
 
 ## Preview
 
-
+![S2P Viewer Preview](image.png)
 
 ## Author
 
