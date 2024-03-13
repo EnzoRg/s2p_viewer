@@ -9,7 +9,7 @@ S2P Viewer is a graphical application developed in Python for visualizing and an
 - **Intuitive Graphical Interface:** Simplifies the loading and visualization of S2P files.
 - **Parameter Visualization:** Graphically displays S11, S22, S12, and S21 parameters.
 - **Graph Clearing Function:** Allows users to clear the visualization for new data.
-- **Easy File Selection:** Utilize the "Open" button to easily load S2P files.
+- **Easy File Selection:** Utilize the "File" button to easily load S2P files.
 - **Cross-Platform Compatibility:** Developed in Python, the program is compatible with various platforms.
 
 ## Usage Instructions
