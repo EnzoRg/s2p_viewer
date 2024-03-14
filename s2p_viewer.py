@@ -18,7 +18,7 @@ class PlotButton:
 
 class App:
     def __init__(self, root):
-        root.title("S2P Viewer - EnzoRg")
+        root.title("S2P Viewer")
         root.configure(bg="#f0f0f0")
         width = 800
         height = 600
@@ -50,6 +50,10 @@ class App:
         self.canvas = FigureCanvasTkAgg(self.fig, master=graph_frame)
         self.canvas.draw()
         self.canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=1)
+
+        label_enzorg = tk.Label(root, text="EnzoRg", font=tkFont.Font(size=10))
+        label_enzorg.pack(pady=20)
+        label_enzorg.place(x=730, y=565, width=50, height=25)
 
     def create_buttons(self, root):
         button_open = PlotButton(root, "File", self.button_open_command, "#f0f0f0")
