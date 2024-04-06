@@ -20,6 +20,8 @@ class App:
     def __init__(self, root):
         root.title("S2P Viewer")
         root.configure(bg="#f0f0f0")
+        root.iconbitmap("icon.ico")
+        #root.iconphoto(False, tk.PhotoImage(file="icon.png"))
         width = 800
         height = 600
         screenwidth = root.winfo_screenwidth()
@@ -144,6 +146,5 @@ class App:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    root.iconbitmap("icon.ico")
     app = App(root)
     root.mainloop()
