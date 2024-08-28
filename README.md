@@ -31,8 +31,3 @@ S2P Viewer is a graphical application developed in Python for visualizing and an
 ## Author
 
 EnzoRg
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
